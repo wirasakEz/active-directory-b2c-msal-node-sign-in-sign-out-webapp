@@ -4,5 +4,11 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "appService.defaultWebAppToDeploy": "/subscriptions/b45738af-abb2-4c28-b2af-e045d8038ba5/microsoft.web/sites/subscriptions/b45738af-abb2-4c28-b2af-e045d8038ba5/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/az-ad-b2d-demo",
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }

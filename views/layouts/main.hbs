@@ -29,7 +29,10 @@
                   </a>
               </div>
 
+                <p class="navbar-brand d-flex ms-auto">Hi, {{name}}</p>
+                <!--
                 <p class="navbar-brand d-flex ms-auto">Hi {{givenName}}</p>
+                -->
 
                 <a class="navbar-brand d-flex ms-auto" href="/signout">Sign out</a>
         {{/if}}
@@ -39,6 +42,7 @@
     <br>
     <div class="row" style="margin:auto" >
       {{{body}}}
+      <pre>{{response}}</pre>
     </div>
     <br>
     <br>
